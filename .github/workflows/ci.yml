@@ -14,7 +14,7 @@ jobs:
         steps:
             - uses: actions/checkout@v7
             - name: Use Node.js
-              uses: actions/setup-node@v6
+              uses: actions/setup-node@v7
               with:
                   node-version: latest
             - name: install dependencies
@@ -84,7 +84,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v7
-            - uses: actions/setup-node@v6
+            - uses: actions/setup-node@v7
               with:
                   node-version: latest
             - uses: actions/cache@v6
@@ -99,7 +99,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v7
-            - uses: actions/setup-node@v6
+            - uses: actions/setup-node@v7
               with:
                   node-version: latest
             - uses: actions/cache@v6
