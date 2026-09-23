@@ -18,11 +18,11 @@
     "type": "module",
     "devDependencies": {
         "@mongodb-js/zstd": "^7.0.0",
-        "@types/node": "^26.4.1",
+        "@types/node": "^26.6.2",
         "@vitest/ui": "^4.1.10",
         "duckdb": "^1.4.4",
-        "prettier": "^3.9.6",
-        "tsx": "^4.23.13",
+        "prettier": "^3.9.8",
+        "tsx": "^4.23.15",
         "typescript": "^7.0.2",
         "vitest": "^4.0.6"
     },
